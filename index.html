@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vasily Nemkov busyness card</title>
+    <meta
+      name="description"
+      content="This is a busyness card of Vasily Nemkov"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+
+    <!-- Favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <style>
+    html,
+    body {
+      min-height: 100%;
+      min-width: 100%;
+      color: whitesmoke;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-image: radial-gradient(
+          circle at 94% 90%,
+          #1838aa 0%,
+          20%,
+          rgba(24, 56, 170, 0) 40%
+        ),
+        radial-gradient(
+          circle at 6.5% 88%,
+          #0c1c55 0%,
+          25%,
+          rgba(12, 28, 85, 0) 50%
+        ),
+        radial-gradient(
+          circle at 18% 47%,
+          #1838aa 0%,
+          42%,
+          rgba(24, 56, 170, 0) 70%
+        ),
+        radial-gradient(
+          circle at 94% 11.5%,
+          #0c1c55 0%,
+          42%,
+          rgba(12, 28, 85, 0) 70%
+        ),
+        radial-gradient(
+          circle at 49% 50%,
+          #000000 0%,
+          100%,
+          rgba(0, 0, 0, 0) 100%
+        );
+      /* background-repeat: no-repeat; */
+      /* background-attachment: scroll; */
+      /* background-size: 100% 100%; */
+    }
+
+    body {
+      overflow-x: clip;
+      width: 100%;
+      height: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+
+      margin-bottom: 0px;
+      padding: 0px 0px 0px 0px;
+    }
+
+    #name {
+      font-size: 5rem;
+      max-width: min(800px, 80%);
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+
+    #about {
+      font-size: 1.5rem;
+      max-width: min(600px, 80%);
+    }
+
+    #links {
+      /* max-width: 100%; */
+      margin-top: 2rem;
+    }
+
+    #links ul {
+      margin: 0px;
+      display: inline-flex;
+      padding: 0px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* align-items: stretch; */
+    }
+
+    #links li {
+      margin-right: 1rem;
+      display: inline-block;
+    }
+
+    #links a {
+      background-color: whitesmoke;
+      font-size: 34px;
+      text-align: center;
+      color: whitesmoke;
+      background-color: rgba(255, 255, 255, 0.25);
+      text-align: center;
+      min-width: 13rem;
+      padding: 0.5rem;
+      display: inline-block;
+      border-radius: 20px 20px 20px 20px;
+      margin-top: 1rem;
+    }
+
+    #links a:hover {
+      background-color: rgba(192, 206, 255, 0.373);
+      color: black !important;
+      transition: all 0.5s;
+    }
+
+    #links a:visited {
+      color: whitesmoke;
+    }
+
+    .spinner-container {
+      position: absolute;
+      left: 50%;
+      top: -25%;
+      z-index: -100;
+      overflow: clip;
+      display: none !important;
+    }
+    .spinner {
+      opacity: 5%;
+      animation: rotating 32s infinite;
+    }
+
+    @keyframes rotating {
+      10% {
+        transform: rotate(-7deg);
+      }
+      21% {
+        transform: rotate(43deg);
+      }
+      33% {
+        transform: rotate(20deg);
+      }
+      43% {
+        transform: rotate(91deg);
+      }
+      59% {
+        transform: rotate(57deg);
+      }
+      67% {
+        transform: rotate(211deg);
+      }
+      81% {
+        transform: rotate(121deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .rotating {
+      animation: rotating 5s linear infinite;
+    }
+  </style>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <h1 id="name">Vasily Nemkov</h1>
+    <!-- <div class="spinner-container">
+        <img class="spinner" src="./spinner.webp" />
+      </div> -->
+    <section id="about">
+      Empowering non-technical founders with a clear understanding of technical
+      and organizational aspects of software development. Will tell you what
+      techies don't want to, too afraid, or too shy to talk about.
+    </section>
+    <section id="links">
+      <ul>
+        <li><a href="https://vnemkov.youcanbook.me/">Book a slot</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/vasily-nemkov/">LinkedIn</a>
+        </li>
+        <li><a href="https://github.com/Enmk">GitHub</a></li>
+        <li>
+          <a href="mailto:v.nemkov@gmail.com?subject=Business opportunities"
+            >Email</a
+          >
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
